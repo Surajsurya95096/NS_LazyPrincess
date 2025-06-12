@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'lazyPrinces')
 API_ID = int(environ.get('API_ID', '26992030'))
 API_HASH = environ.get('API_HASH', '4da7d71c6bc4512a886e41aca83a5ee3')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8119956185:AAHtybfrQv_UkRXFB0FN0eYDgx_dsyXV4cs")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8119956185:AAH8ESXHEpJAfB-anso33SIs4UnfRlr_bog")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -41,7 +41,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002420379915'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyPrincessSupport')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'deendayal_support_chat')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
